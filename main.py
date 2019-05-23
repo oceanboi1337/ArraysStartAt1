@@ -1,7 +1,7 @@
-ArraryGetAt(arr, index):
-  return array[index-1]
+def ArrayGetAt(arr, index):
+  return arr[index-1]
 
-main():  
+def main():
   arr = [1, 2, 3]
   first = ArrayGetAt(arr, 1)
   print(first)
